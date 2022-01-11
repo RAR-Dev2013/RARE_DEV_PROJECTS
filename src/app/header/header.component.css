@@ -1,0 +1,11 @@
+:host ::ng-deep .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+:host ::ng-deep .donateButton {
+    background-color: red;
+    border: solid black;
+    margin: 4px;
+}

@@ -6,20 +6,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 
 import { NavigationComponent } from './navigation/navigation.component';
+import { HeaderComponent } from './header/header.component';
 
 import {TabMenuModule} from 'primeng/tabmenu';
+import {ButtonModule} from 'primeng/button';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
     TabMenuModule,
+    ButtonModule,
     RouterModule.forRoot([{ path: '',
                     component: AppComponent }])
   ],

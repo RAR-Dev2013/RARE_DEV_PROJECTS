@@ -13,11 +13,13 @@ export class NavigationComponent {
 
   ngOnInit() {
     this.items = [
-      {label: 'Home', icon: 'pi pi-fw pi-home'},
-      {label: 'Calendar', icon: 'pi pi-fw pi-calendar'},
-      {label: 'Edit', icon: 'pi pi-fw pi-pencil'},
-      {label: 'Documentation', icon: 'pi pi-fw pi-file'},
-      {label: 'Settings', icon: 'pi pi-fw pi-cog'}
+      {label: 'HOME', icon: 'pi pi-fw pi-home'},
+      {label: 'AVAILIBLE PETS', icon: 'pi pi-fw pi-heart'},
+      {label: 'SPECIAL CASES', icon: 'pi pi-fw pi-heart-fill'},
+      {label: 'HAPPY TAILS', icon: 'pi pi-fw pi-heart'},
+      {label: 'ADOPT', icon: 'pi pi-fw pi-heart-fill'},
+      {label: 'GET INVOLVED', icon: 'pi pi-fw pi-heart'},
+      {label: 'HELP A PET', icon: 'pi pi-fw pi-heart-fill'},
   ];
 
   this.activeItem = this.items[0];
