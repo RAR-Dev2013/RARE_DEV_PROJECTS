@@ -5,11 +5,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 
-import { NavigationComponent } from './navigation/navigation.component';
+
 import { HeaderComponent } from './header/header.component';
 
-import {TabMenuModule} from 'primeng/tabmenu';
+import {TabViewModule} from 'primeng/tabview';
 import {ButtonModule} from 'primeng/button';
+import { InfoComponent } from './homepage/info/info.component';
+import { HappytailsComponent } from './homepage/happytails/happytails.component';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 
 
@@ -17,16 +20,19 @@ import {ButtonModule} from 'primeng/button';
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
-    HeaderComponent
+    HeaderComponent,
+    InfoComponent,
+    HappytailsComponent,
+
   ],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    TabMenuModule,
+    TabViewModule,
     ButtonModule,
-    RouterModule.forRoot([{ path: '',
-                    component: AppComponent }])
+    // RouterModule.forRoot([{ path: '',
+    //                 component: AppComponent }]),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

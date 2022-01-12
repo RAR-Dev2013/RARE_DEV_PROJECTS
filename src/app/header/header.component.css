@@ -5,7 +5,8 @@
 }
 
 :host ::ng-deep .donateButton {
-    background-color: red;
-    border: solid black;
+    background-color: #003049;
+    border: solid #BFD7EA;
     margin: 4px;
+    color: #BFD7EA;
 }

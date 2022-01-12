@@ -1,3 +1,29 @@
+<!-- header component with button -->
 <app-header></app-header>
-<app-navigation></app-navigation>
+<!-- Code for the Nav -->
+<nav class="topnav">
+  <a routerLink="/" class="active"> <i class="fa fa-fw fa-home"></i> HOME</a>
+  <a routerLink="/availiblepets"><i class="fa fa-heart"></i> Departments</a>
+  <a> <i class="fa fa-heart"></i> SPECIAL CASES</a>
+  <a> <i class="fa fa-heart-o"></i> HAPPY TAILS</a>
+  <a> <i class="fa fa-heart"></i> ADOPT</a>
+  <a> <i class="fa fa-heart-o"></i> GET INVOLVED</a>
+  <a> <i class="fa fa-heart"></i> HELP A PET</a>
+</nav>
 
+<!-- The icons seen on this tab needs this -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<app-happytails></app-happytails>
+<app-info></app-info>
+
+
+
+<div class="footer-container">
+    <p class="footer-content">Roxanne Reindl &copy; 2022 All rights reserved for <i>Red Dog Rescue</i> 2018</p>
+</div> 
+
+<router-outlet></router-outlet>
