@@ -13,6 +13,10 @@ import {ButtonModule} from 'primeng/button';
 import { InfoComponent } from './homepage/info/info.component';
 import { HappytailsComponent } from './homepage/happytails/happytails.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
+// getting info to work and page to split
+import {ImageModule} from 'primeng/image';
+import {DividerModule} from 'primeng/divider';
+import {SplitterModule} from 'primeng/splitter';
 
 
 
@@ -32,7 +36,10 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
     ButtonModule,
     // RouterModule.forRoot([{ path: '',
     //                 component: AppComponent }]),
-    AppRoutingModule
+    AppRoutingModule,
+    ImageModule,
+    DividerModule,
+    SplitterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
