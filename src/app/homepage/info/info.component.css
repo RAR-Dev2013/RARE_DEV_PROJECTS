@@ -1,0 +1,19 @@
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pic3 {
+    position:relative;
+    left: 750px;
+}
+
+.pic3 {
+    position:relative;
+    left: 750px;
+}
+
+.fourth {
+    padding: 60px;
+}
