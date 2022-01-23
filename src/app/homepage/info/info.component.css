@@ -1,25 +1,60 @@
 .infoComponent {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     border: 1px solid lightgray;
     background-color: lightgray;
+    height: 800px;
+}
+
+.happyTailsComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(51, 49, 49);
+    background-color: rgb(206, 38, 38);
+    height: 800px;
+}
+
+.adoptComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    height: 800px;
 }
 
 img {
     display: fixed;
     position: relative;
-    padding: 0px 0px 0px 20px;
+
 }
 
 .textAbout {
-    width: 600px;
+    width: 700px;
     height: 175px;
     text-align: center;
     display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 510px;
+    top: 450px;
     border: 2px solid beige;
     background-color: beige;
     z-index: 2;
+}
+
+
+.happyPhoto {
+    border: 1px solid transparent;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+}
+
+.happyPhoto:hover {
+    background-color: wheat;
 }

@@ -1,0 +1,5 @@
+.happyTailsComponent {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(201, 118, 118);
+}
