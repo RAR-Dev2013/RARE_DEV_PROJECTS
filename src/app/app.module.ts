@@ -17,6 +17,9 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import {ImageModule} from 'primeng/image';
 import {DividerModule} from 'primeng/divider';
 import {SplitterModule} from 'primeng/splitter';
+import { AdoptComponent } from './homepage/adopt/adopt.component';
+import { InvolvedComponent } from './homepage/involved/involved.component';
+import { HomepageComponent } from './homepage/homepage/homepage.component';
 
 
 
@@ -27,6 +30,9 @@ import {SplitterModule} from 'primeng/splitter';
     HeaderComponent,
     InfoComponent,
     HappytailsComponent,
+    AdoptComponent,
+    InvolvedComponent,
+    HomepageComponent,
 
   ],
   imports: [

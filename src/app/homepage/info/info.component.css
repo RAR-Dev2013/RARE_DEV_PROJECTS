@@ -1,19 +1,25 @@
-.second {
+.infoComponent {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
 }
 
-.pic3 {
-    position:relative;
-    left: 750px;
+img {
+    display: fixed;
+    position: relative;
+    padding: 0px 0px 0px 20px;
 }
 
-.pic3 {
-    position:relative;
-    left: 750px;
-}
-
-.fourth {
-    padding: 60px;
+.textAbout {
+    width: 600px;
+    height: 175px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 510px;
+    border: 2px solid beige;
+    background-color: beige;
+    z-index: 2;
 }
